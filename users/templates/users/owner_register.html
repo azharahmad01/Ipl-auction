@@ -1,0 +1,25 @@
+{% extends 'home/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="container">
+    <div class='content-section'>
+        <form method="POST">
+            {% csrf_token %}  <!--necessary for security purpose-->
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Register Today</legend>
+                {{ user_form|crispy }} 
+                {{ owner_form|crispy }}              <!--will render our form in different paragraphs so good-->
+                
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-online-info">Sign up!</button>
+            </div>
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Already have an account? <a href="{% url 'login' %}">Log in!</a>
+            </small>
+        </div>
+    </div>
+</div>
+{% endblock content %}

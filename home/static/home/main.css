@@ -1,0 +1,393 @@
+{% load static %}
+
+body{
+    background-color: white;
+    color:black;
+    padding-top:65px;
+    overflow: auto !important;
+  }
+  
+  .top-bar{
+    height:67px;
+    background-color: #E40046;
+  }
+  .main-heading,.main-heading:link,.main-heading:visited,.main-heading:hover{
+    color:white;
+    text-decoration: none;
+  }
+  .empty{
+    height: 18px;
+    padding-left:58px;
+    font-size: 14px;
+    padding-top:0.08px;
+    padding-bottom:1px;
+    font-weight: 500;
+  }
+  .afternav-empty{
+    height: 4px;
+  }
+  .auction{
+    font-size: 20px;
+    color:white ;
+    padding: 20px 60px;
+    font-family: helvetica;
+    float:left;
+  }
+  .input-group{
+    padding-top:17px;
+    padding-left:50px;
+    width:750px;
+  }
+  .search{
+    background-color:#FF5733;
+    width:120px;
+    color: white;
+    border:none;
+  }
+  .search-group{
+    float:left;
+  }
+  .logging{
+    padding:16px;
+    margin-left: 30px;
+    
+  }
+  .login{
+    background-color: white;
+    color:grey;
+    border-radius: 0px;
+    margin-left: 190px;
+    font-weight: 600;
+  }
+  .signup{
+    border-radius: 0px;
+    background-color: #FF5733 ;
+    border:none;
+
+  }
+  .home-jumbotron{
+    background-image: url( 'jumbotron.jpg' );
+    height:575px;
+    background-size: 100% 100%;
+    border-radius: 0px;
+    margin-bottom: 3px;
+  }
+  .heading{
+    padding-top: 144px;
+    text-align:center;
+    color:white;
+    font-weight: 400;
+  }
+
+  .sub-heading{
+    color:#E2E41A;
+    padding-top:0px;
+  }
+ 
+  .eight{
+    float:left;
+    margin-left: 500px;
+    border-right: 1px grey solid;
+    padding-right: 30px;
+
+  }
+  .twohundred{
+    border-right: 1px grey solid;
+    position:relative;
+    left:30px;
+  }
+  .size-badha{
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .position-upar{
+    position: relative;
+    bottom:3px;  
+  }
+ .learn{
+  position: relative;
+  top:320px;
+  left:1160px;
+ }
+ .media-image{
+  width:300px;
+  height:247px;
+ }
+  
+ .chennai{
+  background-image: url( 'chennai2.jpg' );
+   background-size: 100% 100%;
+ }
+ .mumbai{
+  background-image: url('mumbai2.jpeg');
+   background-size: 100% 100%;
+ }
+  .kolkata{
+ background-image: url( 'kolkata2.jpg');
+   background-size: 100% 100%;
+ }
+ .hyderabad{
+  background-color: #E64529;
+ }
+ 
+ .punjab{
+ background-color: #C21C1E;
+ }
+ .delhi{
+  background-image: url( 'delhi2.jpeg');
+   background-size: 100% 100%;
+  color:black !important ;
+ }
+ .bangalore{
+  background-image: url('bangalore2.png');
+   background-size: 100% 100%;
+ }
+ .rajasthan{
+  background-color: #F03FA0;
+ }
+ .media{
+  margin: 0px;
+  padding: 0px;
+  color:white;
+ }
+ .media-heading{
+  font-size: 30px;
+  padding-top:50px;
+ }
+ .media-image{
+  padding:7px 7px;
+ }
+ .media-body{
+  padding: 6px 6px;
+ }
+ .media-image-kol{
+  padding-bottom: -20px;
+  height: 285px;
+  width:260px; 
+ }
+ .card{
+  
+  width:237px;
+ }
+ .col-sm-2{
+  padding:0px !important;
+  margin:0px !important;
+ }
+ .row{
+  width:100%;
+ }
+ .card-header{
+  height: 10px;
+  text-align: center;
+  margin-bottom: 0px;
+ }
+ .card-header-text{
+  position: relative;
+  bottom:13px;
+  color:white;
+  font-weight: bold;
+ }
+ .william{
+  background-image: url( 'william2.jpg');
+ }
+ .rishabh{
+  background-color: #7825C3;
+ }
+ .sunil{
+  background-color: #D62F4B;
+ }
+ .watson{
+  background-color: #132D6D;
+ }
+ .andrew{
+  background-color: #00ACA5;
+ }
+ .ankit{
+  background-color: #5191CD;
+ }
+ .william-text{
+  background-color: #FF481E;
+ }
+ .rishabh-text{
+  background-color: #692F9E;
+ }
+ .andrew-text{
+  background-color: #00A09A;
+ }
+ .sunil-text{
+  background-color: #DF314F;
+ }
+ .watson-text{
+  background-color: #19398A;
+ }
+ .ankit-text{
+  background-color: #4D89C6;
+ }
+ .card-border{
+  border-radius: 3px;
+ }
+ .card-body{
+  text-align: center;
+  padding-top: 5px;
+  line-height: 33px;
+ }
+ .second-name{
+  font-weight: bold;
+  font-size:20px;
+  font-style: italic;
+  position: relative;
+  top: -9px;
+ }
+ .stat{
+  font-size: 44px;
+  font-weight: 720;
+  position: relative;
+  top:-5px;
+ }
+ .first-name{
+  color:#A1A1A1;
+  font-weight: 600;
+ }
+ .type{
+  font-size:10px;
+  position: relative;
+  top:-12px;
+ color:#A1A1A1;
+ font-weight: bold;
+  }
+ .leaders{
+  height:67px;
+  text-align: center;
+  font-size: 37px;
+  font-weight: bold;
+  font-style: italic;
+
+ }
+ .list-unstyled{
+  padding:0px;
+  margin:0px;
+ }
+
+
+  #myFooter {
+    
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #373a48;
+    color:white;
+    height: 500px;
+  }
+
+  #myFooter .footer-copyright{
+    background-color: #383737;
+    padding-top:3px;
+    padding-bottom:3px;
+    text-align: center;
+  }
+
+  #myFooter .footer-copyright p{
+    margin:10px;
+    color: #ccc;
+  }
+
+  .footer-container{
+    margin-top:80px;
+    margin-bottom: 30px;
+  }
+  #myFooter ul{
+    list-style-type: none;
+      padding-left: 0;
+      line-height: 1.7;
+
+  }
+
+  #myFooter h5{
+    font-size: 18px;
+      color: white;
+      font-weight: bold;
+      margin-top: 30px;
+  }
+
+  #myFooter a{
+    color:#d2d1d1;
+    text-decoration: none;
+  }
+
+  #myFooter a:hover, #myFooter a:focus{
+    text-decoration: none;
+    color:white;
+  }
+
+  #myFooter .myCols{
+    text-align: center;
+  }
+
+  #myFooter .social-networks{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 38px;
+    margin-bottom:65px;
+  }
+
+  #myFooter .social-networks a{
+      font-size: 32px;
+      margin-right: 5px;
+      margin-left: 5px;
+      color: #f9f9f9;
+      padding: 10px;
+      transition: 0.2s;
+  }
+
+  #myFooter .social-networks a:hover{
+    text-decoration: none;
+
+  }
+
+  #myFooter .facebook:hover{
+    color:#0077e2;
+  }
+
+  #myFooter .google:hover{
+    color:#ef1a1a;
+  }
+
+  #myFooter .twitter:hover{
+    color: #00aced;
+  }
+
+  @media screen and (max-width: 767px){
+    #myFooter {
+      text-align: center;
+    }
+  }
+
+
+
+  /* CSS used for positioning the footers at the bottom of the page. */
+  /* You can remove this. */
+
+
+  /*html{
+    height: 100% !important;
+  }*/
+
+  body{
+      display: flex;
+      display: -webkit-flex;
+      flex-direction: column;
+      -webkit-flex-direction: column;
+      height: 100%;
+  }
+
+  .content{
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+  }
+
+  #myFooter{
+    flex: 0 0 auto;
+      -webkit-flex: 0 0 auto;
+  }
